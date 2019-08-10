@@ -1,5 +1,10 @@
 # passwd-strength
 
+The script has a default cracking speed of 20,000 MH/s. This baseline is based on the following cracking configuration:
+
+* 8x NVIDIA GTX 1080 Ti GPUs
+* Hashtype: NTLMv2
+
 ## Usage
 `python passwd-strength.py <Cracking Speed (in hashes/second)>`
 
