@@ -9,7 +9,8 @@ $ python passwd-strength.py
 ** Basic Password Strength Evaluation **
 Based on password cracking at: 20,000 MH/s.
 
-Password: 
+Enter Password:
+
 [+] Password length:          8
 
 [+] Uppercase characters:     1

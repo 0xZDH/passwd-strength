@@ -28,7 +28,7 @@ entropies = {'Uppercase characters': 26,
 print("\n** Basic Password Strength Evaluation **")
 print("Based on password cracking at: {:,d} MH/s.\n".format(int(crack_speed/1000000))) # Hashes/second to MH/s
 
-password = getpass()
+password = getpass("Enter Password: ")
 pass_len = len(password)
 
 for char in password:
@@ -47,7 +47,7 @@ for char in password:
 
 del password # Remove password from memory
 
-print("[+] %-25s %d\n" % ("Password length:", pass_len))
+print("\n[+] %-25s %d\n" % ("Password length:", pass_len))
 
 for policy in policies.keys():
 
