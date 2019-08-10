@@ -79,4 +79,4 @@ if time_ == "centuries" and cracked > 1000:
     cracked = cracked / 1000
     time_ = "millennia"
 
-print("\n[+] Time to crack password: {:,.2f} {}".format(cracked, time_))
+print("\n[+] Time to crack password:   {:,.2f} {}".format(cracked, time_))

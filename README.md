@@ -9,18 +9,18 @@ $ python passwd-strength.py
 ** Basic Password Strength Evaluation **
 Based on password cracking at: 20,000 MH/s.
 
-Enter Password:
+Enter Password: 
 
 [+] Password length:          8
 
 [+] Uppercase characters:     1
-[+] Lowercase characters:     7
-[+] Numbers:                  -
-[+] Special characters:       -
+[+] Lowercase characters:     5
+[+] Numbers:                  1
+[+] Special characters:       1
 
-[+] Password entropy:         52
+[+] Password entropy:         95
 
-[+] Time to crack password: 0.74 hours
+[+] Time to crack password:   3.84 days
 ```
 
 ```
@@ -34,11 +34,11 @@ Enter Password:
 [+] Password length:          8
 
 [+] Uppercase characters:     1
-[+] Lowercase characters:     7
-[+] Numbers:                  -
-[+] Special characters:       -
+[+] Lowercase characters:     5
+[+] Numbers:                  1
+[+] Special characters:       1
 
-[+] Password entropy:         52
+[+] Password entropy:         95
 
-[+] Time to crack password: 0.37 hours
+[+] Time to crack password:   1.92 days
 ```
