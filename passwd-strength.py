@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
 # This is assuming 20,000 MH/s (20,000,000,000 passwords/second) < Default - can be changed by user
+# This baseline is based on the following cracking configuration:
+#     8x NVIDIA GTX 1080 Ti GPUs
+#     Hashtype: NTLMv2
 # Test password: P4$sword
 
 from __future__ import division
